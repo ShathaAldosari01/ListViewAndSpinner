@@ -10,6 +10,7 @@ public class Task {
     private boolean cheacked;
 
     public Task(String n, String i){
+        //TODO validation for name, intensity
         name= n;
         intensityLevel=i;
         cheacked=false;

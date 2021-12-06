@@ -6,9 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Spinner
+        android:id="@+id/tasksSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/intensityLevel"
+        android:layout_marginTop="15dp"/>
+
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:id="@+id/tasks"/>
+        android:layout_marginTop="50dp"
+        android:id="@+id/tasksList"
+        android:layout_below="@id/tasksSpinner"/>
 </RelativeLayout>
